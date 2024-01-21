@@ -1,6 +1,6 @@
 package com.abstraction;
 /*
- * Abstract class hold abstract as well as non abstract methods
+ * Abstract class hold abstract as well as non-abstract methods
  * 
  * if class holds abstract method then class must declare as abstract class vice versa is not mandatory
  * 

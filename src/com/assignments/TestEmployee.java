@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class TestEmployee {
 
 	public static void main(String[] args) {
-		Employee e[] = new Employee[4];
+		Employee[] e = new Employee[4];
 
 		Scanner s = new Scanner(System.in);
-		Boolean flag = true;
+		boolean flag = true;
 		System.out.println("Enter Basic Info:");
 		System.out.println("Enter Name : ");
 		String name = s.next();

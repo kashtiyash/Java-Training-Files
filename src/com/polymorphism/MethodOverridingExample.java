@@ -2,7 +2,7 @@ package com.polymorphism;
 /* Method Overriding - it is always performed in two classes related to each 
  * other with IS_A relationship(Inheritance)
  * 
- * It is ability to have same functionality/method  with same method signature/prototype in both classes
+ * It is an ability to have the same functionality/method with the same method signature/prototype in both classes
  *  related to each other by IS_A Relationship(Inheritance)
  * 
  */

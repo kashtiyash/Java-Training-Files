@@ -40,7 +40,7 @@ public class BankAccount {
 		double accountBalance = sc.nextInt();
 		Account ac = new Account(accountBalance, accountHolderName);
 
-		Boolean flag = true;
+		boolean flag = true;
 		while (flag) {
 			System.out.println("\nChoose :  \n 1:Check Balance\n 2:Deposit\n 3:Withdraw\n 4:Exit");
 			int inp = sc.nextInt();

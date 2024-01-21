@@ -7,7 +7,7 @@ class MyThread extends Thread{
 		System.out.println("Starting of Run Method");
 		
 //		public static Thread(Object) java.lang.Thread.currentThread(); :- 
-//		return currently executing thread object
+//		return currently executing a thread object
 //		
 //		public String java.lang.Thread.getName(); :-
 //		return name assigned to this(current) thread
@@ -44,7 +44,7 @@ public class ThreadCreationUsingThreadClass {
 		t3.setName("T3 Thread");
 		
 		
-//		Priority MAX-Priority  -10,  MIN-Priority  -1 , Normal-Priority  -5  
+//		Priority MAX-Priority -10, MIN-Priority -1, Normal-Priority -5
 		t1.setPriority(7);
 		t2.setPriority(Thread.MIN_PRIORITY);
 		t3.setPriority(Thread.MAX_PRIORITY);

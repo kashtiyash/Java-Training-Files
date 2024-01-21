@@ -1,11 +1,9 @@
 package com.assignments;
 
-import com.aggregation.Date;
-
 class WageEmployee extends Employee {
 	int hrs;
 	int rate;
-	int salaray;
+	int salary;
 
 	public WageEmployee(String empName, int empId, String dob, int hrs, int rate) {
 		super(empName, empId, dob);
@@ -13,16 +11,15 @@ class WageEmployee extends Employee {
 		this.rate = rate;
 	}
 
-	public int computeSalary() {
-		salaray = hrs * rate;
-		return salaray;
+	public void computeSalary() {
+		salary = hrs * rate;
 	}
 
 	@Override
 	public String toString() {
 		computeSalary();
 		return "\n-------------WageEmployee------------\nEmployee Name = " + empName + ", \nEmployee Id = " + empId
-				+ ", \nEmployee Dob = " + dob + ", \nSalaray = " + salaray + "\n---------------------------";
+				+ ", \nEmployee Dob = " + dob + ", \nSalary = " + salary + "\n---------------------------";
 	}
 
 }

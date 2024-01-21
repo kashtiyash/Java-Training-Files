@@ -27,10 +27,10 @@ class Syrup extends Medicine{
 	}
 	
 }
-class Oinment extends Medicine{
+class Ointment extends Medicine{
 	void displayLabel(String med, String add) {
 		super.displayLabel(med, add);
-		System.out.println("For External Use only and Store in cool and dry envirnoment");
+		System.out.println("For External Use only and Store in cool and dry environment");
 		System.out.println("----------------------------------------");
 		
 	}
@@ -41,8 +41,8 @@ public class TextMedicine {
 		Medicine med;
 		med = new Tablet();
 		med.displayLabel("Med Tablet","Pune");
-		med = new Oinment();
-		med.displayLabel("Med Oinment","Mumbai");
+		med = new Ointment();
+		med.displayLabel("Med Ointment","Mumbai");
 		med = new Syrup();
 		med.displayLabel("Med Syrup","Nagpur");
 		

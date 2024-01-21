@@ -1,7 +1,7 @@
 package com.assignments;
 
 class SumCalculator extends Thread {
-	int numbers[];
+	int[] numbers;
 	int partialSum;
 	int startIndex;
 	int endIndex;
@@ -28,12 +28,12 @@ class SumCalculator extends Thread {
 public class SumCalculatorExample {
 
 	public static void main(String[] args) throws InterruptedException {
-		int numbers[] = new int[1000];
+		int[] numbers = new int[1000];
 		for (int i = 1; i <= 1000; i++) {
 			numbers[i] = i;
 		}
 		int numthreads = 5;
-		SumCalculator cal[] = new SumCalculator[numthreads];
+		SumCalculator[] cal = new SumCalculator[numthreads];
 		int batchSize = numbers.length / numthreads;
 
 		for (int i = 0; i < numthreads; i++) {

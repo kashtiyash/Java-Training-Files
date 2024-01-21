@@ -23,7 +23,7 @@ class Book {
 public class BookAssignment {
 
 	public static void main(String[] args) {
-		Book bk[] = new Book[2];
+		Book[] bk = new Book[2];
 		Scanner sc = new Scanner(System.in);
 
 		for (int i = 0; i < bk.length; i++) {
@@ -32,9 +32,9 @@ public class BookAssignment {
 			String authName = sc.nextLine();
 			bk[i] = new Book(bookName, authName);
 		}
-		for (int i = 0; i < bk.length; i++) {
-			System.out.println(bk[i]);
-		}
+        for (Book book : bk) {
+            System.out.println(book);
+        }
 
 	}
 

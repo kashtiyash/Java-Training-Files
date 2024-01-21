@@ -26,7 +26,7 @@ public String toString() {
 }
 	
 	public static void main(String[] args) {
-		Date dob = new Date(25,01,2001);
+		Date dob = new Date(25, 1,2001);
 		System.out.println("Date : " + dob); //by default dob.toString() is present 
 
 	}

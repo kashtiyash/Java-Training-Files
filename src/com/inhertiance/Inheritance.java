@@ -12,7 +12,7 @@ class Emp{
 public Emp(int empId, String empName, String empDesignation) {
 		
 	System.out.println("---------------------------------------");
-		System.out.println("In Paramterized Constructor of Emp Class");
+		System.out.println("In Parameterized Constructor of Emp Class");
 		this.empId = empId;
 		this.empName = empName;
 		this.empDesignation = empDesignation;

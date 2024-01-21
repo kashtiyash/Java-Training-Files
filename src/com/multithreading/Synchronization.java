@@ -42,7 +42,7 @@ class SecondTableImp extends Thread {
 
 }
 
-public class Syncronization {
+public class Synchronization {
 
 	public static void main(String[] args) {
 		PrintTable t = new PrintTable();

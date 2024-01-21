@@ -4,7 +4,7 @@ package com.assignments;
 class Manager extends Employee {
 	int fixedSalary;
 	int incentives;
-	int salaray;
+	int salary;
 
 	public Manager(String empName, int empId, String dob, int fixedSalary, int incentives) {
 		super(empName, empId, dob);
@@ -12,16 +12,15 @@ class Manager extends Employee {
 		this.incentives = incentives;
 	}
 
-	public int computeSalary() {
-		salaray = fixedSalary + incentives;
-		return salaray;
+	public void computeSalary() {
+		salary = fixedSalary + incentives;
 	}
 
 	@Override
 	public String toString() {
 		computeSalary();
 		return "------------Manager------------- \nEmployee Name =" + empName + ", \nEmployee Id=" + empId
-				+ ", \nSalary = " + salaray + ", \nDob=" + dob + "\n-------------------------------";
+				+ ", \nSalary = " + salary + ", \nDob=" + dob + "\n-------------------------------";
 
 	}
 

@@ -26,13 +26,13 @@ class Player {
 class IplTeam {
 	String teamName;
 	String ownerName;
-	LinkedList<Player> palyers;
+	LinkedList<Player> players;
 
-	public IplTeam(String teamName, String ownerName, LinkedList<Player> palyers) {
+	public IplTeam(String teamName, String ownerName, LinkedList<Player> players) {
 		super();
 		this.teamName = teamName;
 		this.ownerName = ownerName;
-		this.palyers = palyers;
+		this.players = players;
 	}
 
 }

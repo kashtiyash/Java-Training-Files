@@ -3,18 +3,17 @@ package com.assignments;
 class SalesPerson extends WageEmployee {
 
 	int sales;
-	int commision;
+	int commission;
 
 	public SalesPerson(String empName, int empId, String dob, int hrs, int rate, int sales, int commision) {
 		super(empName, empId, dob, hrs, rate);
-		this.commision = commision;
+		this.commission = commision;
 		this.sales = sales;
 
 	}
 
-	public int computeSalary() {
-		salaray = (sales * commision);
-		return salaray;
+	public void computeSalary() {
+		salary = (sales * commission);
 
 	}
 
@@ -22,7 +21,7 @@ class SalesPerson extends WageEmployee {
 	public String toString() {
 		computeSalary();
 		return "-------------SalesPerson---------- \nEmployee Name = " + empName + ", \nEmployee ID = " + empId
-				+ ", \nSalary = " + salaray + ", \nDob = " + dob + "\n-----------------------------";
+				+ ", \nSalary = " + salary + ", \nDob = " + dob + "\n-----------------------------";
 	}
 
 }

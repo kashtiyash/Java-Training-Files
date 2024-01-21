@@ -47,7 +47,7 @@ public class SongExample {
 		String dob = s.next();
 		System.out.println("Enter count of songs :");
 		int count = s.nextInt();
-		ArrayList<Song> song = new ArrayList<Song>();
+		ArrayList<Song> song = new ArrayList<>();
 
 //Input of songs from user
 		for (int index = 0; index < count; index++) {

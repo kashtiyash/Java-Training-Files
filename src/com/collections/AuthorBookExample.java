@@ -45,7 +45,7 @@ public class AuthorBookExample {
 		int authorAge = scanner.nextInt();
 		System.out.println("Enter count of books author has :");
 		int count = scanner.nextInt();
-		Vector<Book> books = new Vector<Book>();
+		Vector<Book> books = new Vector<>();
 
 //Input of books from user
 		for (int index = 0; index < count; index++) {

@@ -1,8 +1,8 @@
 package com.static_final;
 
 /*
- * if method signature/prototype starts with static keyword then it is static method
- * static method can access only static variable from outside
+ * if method signature/prototype starts with static keyword, then it is
+ * static method can access only static variable from an outside
  * 
  */
 class Circle{
@@ -18,7 +18,7 @@ class Circle{
 		System.out.println("Circle Cirum: "+ans);
 	}
 }
-public class StaticVaribaleAndMethod {
+public class StaticVariableAndMethod {
 	static {
 		System.out.println("Static Block");
 	}

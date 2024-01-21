@@ -2,8 +2,7 @@ package com.inhertiance;
 /*
  *  this :- keyword
  *  1. used to resolve naming conflict between local and instance variable
- *  2. this() -used for calling one constructor from another constructor
- 	constructor chaining
+ *  2. this() -used for calling one constructor from another constructor  chaining
  	Note constructor call must be first line in constructor
  */
 

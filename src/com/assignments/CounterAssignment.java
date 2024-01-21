@@ -77,8 +77,8 @@ public class CounterAssignment {
 //		dc.start();
 
 //		Thread -reference
-		Incrementer ic[] = new Incrementer[2];
-		Decrementer dc[] = new Decrementer[2];
+		Incrementer[] ic = new Incrementer[2];
+		Decrementer[] dc = new Decrementer[2];
 
 //		Object creation  -- Thread
 		for (int i = 0; i < ic.length; i++) {
@@ -97,7 +97,7 @@ public class CounterAssignment {
 								// threads(child)
 				dc[j].join();
 			} catch (InterruptedException e) {
-				e.printStackTrace();
+//				e.printStackTrace();
 				System.out.println(e);
 			}
 		}

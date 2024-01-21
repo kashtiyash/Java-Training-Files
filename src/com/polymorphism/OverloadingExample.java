@@ -1,7 +1,7 @@
 package com.polymorphism;
 
 /*
- * Polymorphism :- Single task/functionality performed/implement in different ways
+ * Polymorphism: - Single task/functionality performed/implement in different ways
  * 
  * Two types of polymorphism - 
  * 1.compile Time - Method overloading
@@ -9,11 +9,11 @@ package com.polymorphism;
  * 
  * 
  *  Method overloading -- its compile time polymorphism 
-		 *  Ability to have multiple function with same name but different number of arguments 
+		 *  Ability to have multiple functions with the same name but different number of arguments
 		 *  and different data types of arguments
  		 *  Required Single Class
  		 *  
- 		 *  On the basis of number of arguments and data type of the argument passed during function call 
+ 		 *  On the basis of the number of arguments and data type of the argument passed during function call
  		 compiler binds function call with function definition so it is called compile time polymorphism 
  */
 class Shape{
@@ -29,7 +29,7 @@ class Shape{
 	}
 	void area(double h,double b) {
 		ans = 0.5*h*b;
-		System.out.println("Area of Traingle : "+ans);
+		System.out.println("Area of Triangle : "+ans);
 	}
 }
 public class OverloadingExample {

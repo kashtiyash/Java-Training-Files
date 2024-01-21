@@ -29,7 +29,7 @@ class Number {
 		if (secondNumber < 0) {
 			throw new ArithmeticException();
 		} else {
-			result = firstNumber / secondNumber;
+			result = (double) firstNumber / secondNumber;
 		}
 	}
 

@@ -6,7 +6,7 @@ class Average{
 		
 	    if(N>0)
         {     
-	    	result =  (N+1)/2;
+	    	result =  (double) (N + 1) /2;
         }
 	    else {
 	    	throw new IllegalArgumentException();

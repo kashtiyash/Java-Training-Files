@@ -1,6 +1,6 @@
 package com.static_final;
 
-//	final class & method can't be override
+//	final class & method can't be overridden
 class Abc{
 	 void show() {
 		System.out.println("Show in ABC");
